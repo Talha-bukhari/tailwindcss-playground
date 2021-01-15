@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mr-14 {
+  margin-right: 56px;
+}
+
+.rounded-xl {
+  border-radius: 30px;
+}
+
+.border-b-24 {
+  border-bottom: 24px solid white;
+}
