@@ -11,30 +11,9 @@
 }
 
 .border-b-24 {
-  border-bottom: 24px solid white;
+  border-bottom: 24px solid rgba(255, 255, 255, 0.4);
 }
 
-.text-white-40 {
-  color: rgba(255, 255, 255, 0.4);
-}
-.text-white-20 {
-  color: rgba(255, 255, 255, 0.2);
-}
-.bg-white-5 {
-  background: rgba(255, 255, 255, 0.05);
-}
-.text-dark-60 {
-  color: rgba(19, 34, 65, 0.6);
-}
-.text-dark-40 {
-  color: rgba(19, 34, 65, 0.4);
-}
-.text-dark-20 {
-  color: rgba(19, 34, 65, 0.2);
-}
-.text-neon-80 {
-  color: rgba(0, 255, 255, 0.8);
-}
 .w-110 {
   width: 440px;
 }
