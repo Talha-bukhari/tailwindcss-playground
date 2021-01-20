@@ -5,6 +5,9 @@
 .mr-14 {
   margin-right: 56px;
 }
+.mt-14 {
+  margin-top: 56px;
+}
 
 .rounded-xl {
   border-radius: 30px;
@@ -16,6 +19,12 @@
 
 .w-110 {
   width: 440px;
+}
+.w-17 {
+  width: 66px;
+}
+.h-17 {
+  height: 66px;
 }
 select {
   /* for Firefox */

@@ -18,14 +18,16 @@
       <div class="w-2/12 h-20 bg-gray-100"></div>
     </div>
     <div class="flex h-screen">
-      <div class="w-3/12 p-8 bg-primary-100 text-white">
+      <div class="w-3/12 p-8 bg-primary-90 text-white">
         <div>
           <a class="underline text-sm text-white-40" href="#">Close</a>
         </div>
         <div class="mt-16">
-          <label class="text-sm" for="task-name">Welcome to Intersect</label>
+          <label class="text-sm text-white-100" for="task-name"
+            >Welcome to Intersect</label
+          >
           <input
-            class="bg-white-5 mt-2 rounded h-16 w-full"
+            class="bg-white-5 mt-2 rounded h-16 w-full flex items-start align-top p-2 leading-loose"
             type="text"
             placeholder="Task Name"
           />
@@ -72,29 +74,157 @@
             <option value="z">z</option>
           </select>
         </div>
-        <div class="text-sm text-white-20 flex mt-16 cursor-pointer">
-          <img class="mr-4" src="/img/step-name.svg" alt="" /> Step Name
+        <div
+          class="text-sm text-white-20 flex items-center mt-16 cursor-pointer"
+        >
+          <svg
+            class="mr-4"
+            width="10"
+            height="8"
+            viewBox="0 0 10 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              y="0.5"
+              width="10"
+              height="1"
+              rx="0.5"
+              fill="white"
+              fill-opacity="0.4"
+            />
+            <rect
+              y="3.5"
+              width="10"
+              height="1"
+              rx="0.5"
+              fill="white"
+              fill-opacity="0.4"
+            />
+            <rect
+              y="6.5"
+              width="10"
+              height="1"
+              rx="0.5"
+              fill="white"
+              fill-opacity="0.4"
+            />
+          </svg>
+          Step Name
         </div>
         <div
-          class="flex text-secondary-neon text-sm underline mt-6 cursor-pointer"
+          class="flex items-center text-secondary-neon text-sm underline mt-6 cursor-pointer"
         >
-          <img class="mr-4" src="/img/add-step.svg" alt="" /> Add Step
+          <svg
+            class="mr-4"
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M5.5 1C5.5 0.585786 5.16421 0.25 4.75 0.25C4.33579 0.25 4 0.585786 4 1V4.25H0.75C0.335786 4.25 0 4.58579 0 5C0 5.41421 0.335786 5.75 0.75 5.75H4V9C4 9.41421 4.33579 9.75 4.75 9.75C5.16421 9.75 5.5 9.41421 5.5 9V5.75H8.75C9.16421 5.75 9.5 5.41421 9.5 5C9.5 4.58579 9.16421 4.25 8.75 4.25H5.5V1Z"
+              fill="#00FFFF"
+              fill-opacity="0.8"
+            />
+          </svg>
+          Add Step
         </div>
       </div>
 
       <div class="w-7/12 pl-16 pt-8 pr-6 bg-gray-100">
         <div class="flex justify-between">
           <div class="flex text-primary-80 text-xs items-center">
-            <img class="mr-2 w-2 h-2" src="/img/steps.svg" alt="" /> All Steps
+            <svg
+              class="mr-2 w-2 h-2"
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="3.55556"
+                height="3.55556"
+                rx="1"
+                fill="#3D39FF"
+                fill-opacity="0.8"
+              />
+              <rect
+                x="4.44446"
+                width="3.55556"
+                height="3.55556"
+                rx="1"
+                fill="#3D39FF"
+                fill-opacity="0.8"
+              />
+              <rect
+                x="4.44446"
+                y="4.44434"
+                width="3.55556"
+                height="3.55556"
+                rx="1"
+                fill="#3D39FF"
+                fill-opacity="0.8"
+              />
+              <rect
+                y="4.44434"
+                width="3.55556"
+                height="3.55556"
+                rx="1"
+                fill="#3D39FF"
+                fill-opacity="0.8"
+              />
+            </svg>
+            All Steps
           </div>
           <div>
-            <img src="/img/auto-save.svg" alt="" />
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="12"
+                fill="#3D39FF"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M8 11.6667L10.6667 14.3333L16 9"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
           </div>
         </div>
         <div
           class="mt-16 bg-primary-3 h-40 w-110 flex flex-col justify-center items-center cursor-pointer"
         >
-          <div><img src="/img/plus.svg" alt="" /></div>
+          <div>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.49985 0.75C9.49985 0.335786 9.16406 0 8.74985 0C8.33564 0 7.99985 0.335786 7.99985 0.75V8.0001H0.75C0.335786 8.0001 0 8.33588 0 8.7501C0 9.16431 0.335786 9.5001 0.75 9.5001H7.99985V16.75C7.99985 17.1642 8.33564 17.5 8.74985 17.5C9.16406 17.5 9.49985 17.1642 9.49985 16.75V9.5001H16.75C17.1642 9.5001 17.5 9.16431 17.5 8.7501C17.5 8.33588 17.1642 8.0001 16.75 8.0001H9.49985V0.75Z"
+                fill="#132241"
+                fill-opacity="0.4"
+              />
+            </svg>
+          </div>
           <div class="mt-6">
             <p class="text-sm text-black-40 text-center">
               Drag & drop the component from <br />
@@ -109,56 +239,379 @@
           <p class="text-black-40 text-sm">Drag a Component in</p>
           <p class="text-black-20 text-xs mt-6">QFA</p>
           <ul class="mt-3">
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/multiple.svg" alt="" /> Multiple
-              Selection
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4 1.5C2.89543 1.5 2 2.39543 2 3.5C2 4.60457 2.89543 5.5 4 5.5H8C9.10457 5.5 10 4.60457 10 3.5C10 2.39543 9.10457 1.5 8 1.5H4ZM7.10535 2.96254C7.20298 2.86491 7.20298 2.70662 7.10535 2.60899C7.00772 2.51136 6.84943 2.51136 6.75179 2.60899L5.64286 3.71793L5.17678 3.25185C5.07915 3.15422 4.92085 3.15422 4.82322 3.25185C4.72559 3.34948 4.72559 3.50777 4.82322 3.6054L5.46608 4.24826L5.64286 4.42503L5.81963 4.24826L7.10535 2.96254Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4 6.5C2.89543 6.5 2 7.39543 2 8.5C2 9.60457 2.89543 10.5 4 10.5H8C9.10457 10.5 10 9.60457 10 8.5C10 7.39543 9.10457 6.5 8 6.5H4ZM7.10535 7.96254C7.20298 7.86491 7.20298 7.70662 7.10535 7.60899C7.00772 7.51136 6.84943 7.51136 6.75179 7.60899L5.64286 8.71793L5.17678 8.25185C5.07915 8.15422 4.92085 8.15422 4.82322 8.25185C4.72559 8.34948 4.72559 8.50777 4.82322 8.6054L5.46608 9.24826L5.64286 9.42503L5.81963 9.24826L7.10535 7.96254Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Multiple Selection
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/single.svg" alt="" /> Single Selection
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2 3.5C2 2.39543 2.89543 1.5 4 1.5H8C9.10457 1.5 10 2.39543 10 3.5C10 4.60457 9.10457 5.5 8 5.5H4C2.89543 5.5 2 4.60457 2 3.5ZM7.10535 2.60899C7.20298 2.70662 7.20298 2.86491 7.10535 2.96254L5.81963 4.24826L5.64286 4.42503L5.46608 4.24826L4.82322 3.6054C4.72559 3.50777 4.72559 3.34948 4.82322 3.25185C4.92085 3.15422 5.07915 3.15422 5.17678 3.25185L5.64286 3.71793L6.75179 2.60899C6.84943 2.51136 7.00772 2.51136 7.10535 2.60899ZM4 7.5H8C8.55228 7.5 9 7.94772 9 8.5C9 9.05228 8.55228 9.5 8 9.5H4C3.44772 9.5 3 9.05228 3 8.5C3 7.94772 3.44772 7.5 4 7.5ZM2 8.5C2 7.39543 2.89543 6.5 4 6.5H8C9.10457 6.5 10 7.39543 10 8.5C10 9.60457 9.10457 10.5 8 10.5H4C2.89543 10.5 2 9.60457 2 8.5Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Single Selection
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/dropdown.svg" alt="" /> Dropdown
-              Selection
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 2.5C2.44772 2.5 2 2.94772 2 3.5V8.5C2 9.05228 2.44772 9.5 3 9.5H9C9.55228 9.5 10 9.05228 10 8.5V3.5C10 2.94772 9.55228 2.5 9 2.5H3ZM4.28572 4.25C4.14764 4.25 4.03572 4.36193 4.03572 4.5C4.03572 4.63807 4.14764 4.75 4.28572 4.75H7.71429C7.85236 4.75 7.96429 4.63807 7.96429 4.5C7.96429 4.36193 7.85236 4.25 7.71429 4.25H4.28572ZM4.03572 6C4.03572 5.86193 4.14764 5.75 4.28572 5.75H7.71429C7.85236 5.75 7.96429 5.86193 7.96429 6C7.96429 6.13807 7.85236 6.25 7.71429 6.25H4.28572C4.14764 6.25 4.03572 6.13807 4.03572 6ZM4.28572 7.25C4.14764 7.25 4.03572 7.36193 4.03572 7.5C4.03572 7.63807 4.14764 7.75 4.28572 7.75H7.71429C7.85236 7.75 7.96429 7.63807 7.96429 7.5C7.96429 7.36193 7.85236 7.25 7.71429 7.25H4.28572Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Dropdown Selection
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/yes-no.svg" alt="" /> Yes/No Question
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.00183 2.52944C7.62925 1.15685 5.40385 1.15685 4.03127 2.52944C2.65869 3.90202 2.65869 6.12742 4.03127 7.5L9.00183 2.52944Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <path
+                  d="M3.00208 9.15416C4.37466 10.5267 6.60005 10.5267 7.97264 9.15416C9.34522 7.78157 9.34522 5.55618 7.97264 4.18359L3.00208 9.15416Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Yes/No Question
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/short.svg" alt="" /> Short Answer
-              Input
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.00183 2.52944C7.62925 1.15685 5.40385 1.15685 4.03127 2.52944C2.65869 3.90202 2.65869 6.12742 4.03127 7.5L9.00183 2.52944Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <path
+                  d="M3.00208 9.15416C4.37466 10.5267 6.60005 10.5267 7.97264 9.15416C9.34522 7.78157 9.34522 5.55618 7.97264 4.18359L3.00208 9.15416Z"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Short Answer Input
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/long.svg" alt="" /> Long Answer Input
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="2"
+                  y="2"
+                  width="8"
+                  height="2"
+                  rx="1"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="2"
+                  y="8"
+                  width="6.85714"
+                  height="2"
+                  rx="1"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="5.42969"
+                  y="5"
+                  width="4.57143"
+                  height="2"
+                  rx="1"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="2"
+                  y="5"
+                  width="2.28571"
+                  height="2"
+                  rx="1"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Long Answer Input
             </li>
-            <li class="flex text-black-60 mb-2">
-              <img class="mr-2" src="/img/data.svg" alt="" /> Data Table
+            <li class="flex items-center text-black-60 mb-2">
+              <svg
+                class="mr-2"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="2"
+                  y="3"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="2"
+                  y="5.40039"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="2"
+                  y="7.7998"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="5"
+                  y="3"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="5"
+                  y="5.40039"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="5"
+                  y="7.7998"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="8"
+                  y="3"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="8"
+                  y="5.40039"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+                <rect
+                  x="8"
+                  y="7.7998"
+                  width="2"
+                  height="1.2"
+                  rx="0.6"
+                  fill="#3D39FF"
+                  fill-opacity="0.5"
+                />
+              </svg>
+              Data Table
             </li>
           </ul>
           <div>
             <p class="text-black-20 text-xs mt-6">File Transmission</p>
             <ul class="mt-3">
-              <li class="flex text-black-60 mb-2">
-                <img class="mr-2" src="/img/upload.svg" alt="" /> File Upload
+              <li class="flex items-center text-black-60 mb-2">
+                <svg
+                  class="mr-2"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 2C2.44772 2 2 2.44772 2 3V9C2 9.55228 2.44772 10 3 10H9C9.55228 10 10 9.55228 10 9V3C10 2.44772 9.55228 2 9 2H3ZM6.17678 4.48989L6 4.31311L5.82322 4.48989L4.48989 5.82322C4.39226 5.92085 4.39226 6.07915 4.48989 6.17678C4.58752 6.27441 4.74581 6.27441 4.84344 6.17678L5.75 5.27022V7.33333C5.75 7.47141 5.86193 7.58333 6 7.58333C6.13807 7.58333 6.25 7.47141 6.25 7.33333V5.27022L7.15656 6.17678C7.25419 6.27441 7.41248 6.27441 7.51011 6.17678C7.60774 6.07915 7.60774 5.92085 7.51011 5.82322L6.17678 4.48989Z"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+                File Upload
               </li>
-              <li class="flex text-black-60 mb-2">
-                <img class="mr-2" src="/img/download.svg" alt="" /> File
-                Download
+              <li class="flex items-center text-black-60 mb-2">
+                <svg
+                  class="mr-2"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9 10C9.55228 10 10 9.55228 10 9L10 3C10 2.44772 9.55228 2 9 2L3 2C2.44771 2 2 2.44771 2 3L2 9C2 9.55228 2.44771 10 3 10L9 10ZM5.82322 7.51011L6 7.68689L6.17678 7.51011L7.51011 6.17678C7.60774 6.07915 7.60774 5.92086 7.51011 5.82322C7.41248 5.72559 7.25419 5.72559 7.15656 5.82322L6.25 6.72978L6.25 4.66667C6.25 4.5286 6.13807 4.41667 6 4.41667C5.86193 4.41667 5.75 4.5286 5.75 4.66667L5.75 6.72978L4.84344 5.82322C4.74581 5.72559 4.58752 5.72559 4.48989 5.82322C4.39226 5.92085 4.39226 6.07914 4.48989 6.17678L5.82322 7.51011Z"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+                File Download
               </li>
             </ul>
           </div>
           <div>
             <p class="text-black-20 text-xs mt-6">Read Only</p>
             <ul class="mt-3">
-              <li class="flex text-black-60 mb-2">
-                <img class="mr-2" src="/img/presentation.svg" alt="" />
+              <li class="flex items-center text-black-60 mb-2">
+                <svg
+                  class="mr-2"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 3C2.44772 3 2 3.44771 2 4V8.00004C2 8.55233 2.44772 9.00004 3 9.00004H9C9.55228 9.00004 10 8.55233 10 8.00004V4C10 3.44772 9.55228 3 9 3H3ZM6 8C7.10457 8 8 7.10457 8 6C8 4.89543 7.10457 4 6 4C4.89543 4 4 4.89543 4 6C4 7.10457 4.89543 8 6 8Z"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+
                 Presentation
               </li>
-              <li class="flex text-black-60 mb-2">
-                <img class="mr-2" src="/img/text.svg" alt="" /> Text
-                Instructions
+              <li class="flex items-center text-black-60 mb-2">
+                <svg
+                  class="mr-2"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="2"
+                    y="2"
+                    width="8"
+                    height="2"
+                    rx="1"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                  <rect
+                    x="2"
+                    y="5"
+                    width="8"
+                    height="2"
+                    rx="1"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                  <rect
+                    x="2"
+                    y="8"
+                    width="8"
+                    height="2"
+                    rx="1"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+                Text Instructions
               </li>
-              <li class="flex text-black-60 mb-2">
-                <img class="mr-2" src="/img/link.svg" alt="" /> Link
+              <li class="flex items-center text-black-60 mb-2">
+                <svg
+                  class="mr-2"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 2C2.44772 2 2 2.44772 2 3V9C2 9.55228 2.44772 10 3 10L9 10C9.55228 10 10 9.55228 10 9V3C10 2.44772 9.55228 2 9 2L3 2ZM7.19289 5.05715V4.80715H6.94289L5.05727 4.80715C4.9192 4.80715 4.80727 4.91908 4.80727 5.05715C4.80727 5.19522 4.9192 5.30715 5.05727 5.30715L6.33934 5.30715L4.8805 6.76599C4.78287 6.86362 4.78287 7.02191 4.8805 7.11955C4.97813 7.21718 5.13642 7.21718 5.23405 7.11955L6.69289 5.6607V6.94277C6.69289 7.08084 6.80482 7.19277 6.94289 7.19277C7.08096 7.19277 7.19289 7.08084 7.19289 6.94277V5.05715Z"
+                    fill="#3D39FF"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+                Link
               </li>
             </ul>
           </div>
